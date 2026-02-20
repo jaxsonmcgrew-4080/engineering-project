@@ -28,11 +28,7 @@ while True:
             result4= x * z 
             print(result4)
             continue
-        elif y == "JXA":
-            print ("one year on 04/28/26")
-        elif y == "Garr":
-            print ('"Im JuSt BiG BoNeD"')
-
+        
 print ("Welcome to the dice rolling game! You will be rolling a 25 sided die and guessing the number. If you guess the number you win if you dont you lose")
 while True:
      rng = input ("Enter '1' to roll the dice or enter '2' to quit : ")
