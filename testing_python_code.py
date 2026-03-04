@@ -22,36 +22,34 @@ while True:
         except ValueError:
             print ("Invalid input, try again")
             continue
-        break
-    while True:
+        while True:
             y = input ("Enter one of the following to add '+' to mult '*' to divide '/' to subtract '-' : ")
             if y != "+" and y != "-" and y != "/" and y != "*":
                 print ("Invalid input, try again")
                 continue
             break
-    while True:
-        try:
-            z = int(input ("Enter your second number here or enter WHOLE NUMBERS ONLY!!! : "))
-        except ValueError:
-            print ("Invalid input, try again")
-            continue
-        if y == "+":
-            result1= x + z
-            print(result1)
-            continue
-        elif y == "-":
-            result2= x - z 
-            print(result2)
-            continue
-        elif y == "/":
-            result3= x / z 
-            print(result3)
-            continue
-        elif y == "*":
-            result4= x * z 
-            print(result4)
-            continue
-        break
+        while True:
+            try:
+                z = int(input ("Enter your second number here or enter WHOLE NUMBERS ONLY!!! : "))
+            except ValueError:
+                print ("Invalid input, try again")
+                continue
+            if y == "+":
+                result1= x + z
+                print(result1)
+                break
+            elif y == "-":
+                result2= x - z 
+                print(result2)
+                break
+            elif y == "/":
+                result3= x / z 
+                print(result3)
+                break
+            elif y == "*":
+                result4= x * z 
+                print(result4)
+                break
         
 print ("Welcome to the dice rolling game! You will be rolling a 25 sided die and guessing the number. If you guess the number you win if you dont you lose")
 while True:
