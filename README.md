@@ -1,6 +1,9 @@
-my code is a calculator and a random number generator guessing game.
-i have various criterias. i have four out of the needed three. my criterias are as follows. random number generator, error/exception handling, 3 string methods, and two while true loops.
-so far i have basically finished my code i have a little more testing to do to find more errors. and to make sure my code is working flawlessly for when its due. i have finished my calculator and random number generator geussing game.
-my code has a selection for if you want to play the game or run the calculator or you could quit the program.
-the random number generator geussing game is 1 - 25 you enter your number and you are either win or you lose.
-finally i do not feel like i need gudiance for the rest of my project anymore. as it is just checking for errors here on out.
+this code is a calculator and a random number generator guessing game.
+when you load up the code it will ask you to input 1 of three options "1" if you would like to play the game "2" if you would like to use the calculator or "3" if you want to quit the code.
+if you choose "1" you will be asked if you would like to roll the dice and after put in your guess if you input "1". and if you choose option 2 by inputing "2" you will quit the code.
+but if you choose option 2 for the calculator you will be asked if you would like to quit by inputing "quit". also you will be asked to input your first number you would like to either multiply, divide, add, or subtract.
+after you input your first number you will be asked to input one of the following "*" to multiply, "/" to divide, "+" to add, or "-" to subtract.
+after you input what you would like your problem to be you are finally asked to input your second number.
+after you input your second number it will calculate your problem and print you out the answer.
+then the code will repeat until you are ready to quit the code.
+
