@@ -20,7 +20,7 @@ while True:
                 quit()
             x = int(x)
         except ValueError:
-            print ("Invalid input, try again")
+            print ("Invalid input, try entering a whole number or 'quit' to quit")
             continue
         while True:
             y = input ("Enter one of the following to add '+' to mult '*' to divide '/' to subtract '-' : ")
